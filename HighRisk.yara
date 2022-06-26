@@ -17,6 +17,7 @@ rule HighRisk
         $opera = "\\Opera Software\\Opera Stable"
         $brave = "\\BraveSoftware\\Brave-Browser\\User Data\\Default"
         $yandex = "\\Yandex\\YandexBrowser\\User Data\\Default"
+        $hibp = "https://haveibeenpwned.com/unifiedsearch/"
 
     condition:
         any of them
